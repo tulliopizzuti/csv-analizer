@@ -1,9 +1,0 @@
-path,file,columns,rows,delimiter,null_char,size
-C:\Users\tulli\Desktop\UCI_dataset,C:\Users\tulli\Desktop\UCI_dataset\parkinson.csv,755,758,",",blank,5.06 MB
-C:\Users\tulli\Desktop\UCI_dataset,C:\Users\tulli\Desktop\UCI_dataset\toxicity.csv,1204,172,",",,1.19 MB
-C:\Users\tulli\Desktop\UCI_dataset\micromass.zip\micromass_un_anonymized.zip,micromass/mixed_spectra_matrix.csv,1300,360,;,,1.44 MB
-C:\Users\tulli\Desktop\UCI_dataset\micromass.zip\micromass_un_anonymized.zip,micromass/mixed_spectra_metadata.csv,9,361,;,,15.3 KB
-C:\Users\tulli\Desktop\UCI_dataset\micromass.zip\micromass_un_anonymized.zip,micromass/mixed_spectra_metadata_with-species-names.csv,9,361,;,,24.79 KB
-C:\Users\tulli\Desktop\UCI_dataset\micromass.zip\micromass_un_anonymized.zip,micromass/pure_spectra_matrix.csv,1300,571,;,,2.03 MB
-C:\Users\tulli\Desktop\UCI_dataset\micromass.zip\micromass_un_anonymized.zip,micromass/pure_spectra_metadata.csv,2,572,;,,6.42 KB
-C:\Users\tulli\Desktop\UCI_dataset\micromass.zip\micromass_un_anonymized.zip,micromass/pure_spectra_metadata_with-species-name.csv,2,572,;,,13.89 KB

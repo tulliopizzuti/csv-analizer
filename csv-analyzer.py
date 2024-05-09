@@ -24,8 +24,10 @@ def zip_information_extraction(file, original_file=None):
         csv_files = (list(filter(lambda name: '__MACOSX' not in name and name.endswith('.csv'), archive.namelist())))
         zip_files = (list(filter(lambda name: '__MACOSX' not in name and name.endswith('.zip'), archive.namelist())))
         for csv in csv_files:
-            res.append(csv_information_extraction(archive.open(csv), os.path.join(
-                archive.filename) if original_file == None else original_file, str(csv), convert_size(archive.getinfo(csv).file_size)))
+            res.append(csv_information_extraction(archive.open(csv),
+                                                  os.path.join(
+                                                      archive.filename) if original_file == None else original_file,
+                                                  str(csv), convert_size(archive.getinfo(csv).file_size)))
 
         for zip in zip_files:
             res.extend(zip_information_extraction(archive.open(zip), os.path.join(archive.filename) + "\\" + str(
@@ -38,22 +40,38 @@ def zip_information_extraction(file, original_file=None):
 def csv_information_extraction(file, path, filename, size='0MB'):
     print(f'CSV Information extraction: {path} # {filename}')
     try:
+
         df = pd.read_csv(file, iterator=True, keep_default_na=False, sep=None, header=None, engine='python')
         delimiter = df._engine.data.dialect.delimiter
         df = df.read()
+
         null_chars = ['', '?']
         founded_null_chars = []
         for char in null_chars:
             if char in df.values:
                 founded_null_chars.append(char if char != '' else 'blank')
+
+        columns = len(df.columns)
+        rows = len(df)
+        initial_type = df.dtypes
+        if type(file) is zipfile.ZipExtFile:
+            file.seek(0)
+        df = pd.read_csv(file, delimiter=delimiter)
+        types_without_first_row = df.dtypes
+        probably_header = list(initial_type) != list(types_without_first_row)
+        types = set(map(lambda x:str(x),list(types_without_first_row)))
+
+
         return {
             "path": path,
             "file": filename,
-            "columns": len(df.columns),
-            "rows": len(df),
+            "columns": columns,
+            "rows": rows,
             "delimiter": delimiter,
             "null_char": None if len(founded_null_chars) == 0 else ", ".join(founded_null_chars),
-            "size": size
+            "size": size,
+            "probably_header": probably_header,
+            "types": types
 
         }
     except Exception as e:
