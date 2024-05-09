@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e60c3391-9645-4547-9921-44b5d61df051" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv-analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv-analyzer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1715258427423" duration="439000" />
       <workItem from="1715258880691" duration="5836000" />
       <workItem from="1715264787677" duration="15000" />
-      <workItem from="1715266037915" duration="1225000" />
+      <workItem from="1715266037915" duration="2006000" />
     </task>
     <servers />
   </component>
@@ -147,6 +146,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/csv_analyzer$csv_analyzer.coverage" NAME="csv-analyzer Coverage Results" MODIFIED="1715264526455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/csv_analyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1715267027635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\tulli\Documents\GitHub\csv-analyzer" />
+    <SUITE FILE_PATH="coverage/csv_analyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1715267720350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\tulli\Documents\GitHub\csv-analyzer" />
   </component>
 </project>
