@@ -16,12 +16,14 @@ def convert_size(size_bytes):
     return "%s %s" % (s, size_name[i])
 
 
-def zip_information_extraction(file, original_file=None):
+def zip_information_extraction(file, extension, original_file=None):
     print(f'Opening ZIP: {file}')
     res = []
     try:
         archive = zipfile.ZipFile(file, 'r')
-        csv_files = (list(filter(lambda name: '__MACOSX' not in name and name.endswith('.csv'), archive.namelist())))
+        csv_files=[]
+        for ext in extension:
+            csv_files.extend(list(filter(lambda name: '__MACOSX' not in name and name.endswith(ext), archive.namelist())))
         zip_files = (list(filter(lambda name: '__MACOSX' not in name and name.endswith('.zip'), archive.namelist())))
         for csv in csv_files:
             res.append(csv_information_extraction(archive.open(csv),
@@ -30,7 +32,7 @@ def zip_information_extraction(file, original_file=None):
                                                   str(csv), convert_size(archive.getinfo(csv).file_size)))
 
         for zip in zip_files:
-            res.extend(zip_information_extraction(archive.open(zip), os.path.join(archive.filename) + "\\" + str(
+            res.extend(zip_information_extraction(archive.open(zip),extension, os.path.join(archive.filename) + "\\" + str(
                 zip) if original_file == None else original_file + "\\" + str(zip)))
     except zipfile.BadZipFile:
         print(f'Error opening ZIP: {file}')
@@ -92,24 +94,27 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument('input', help="Input CSV file or directory.")
 parser.add_argument('-o', '--output', help="Output CSV file.", type=str, default="result.csv")
-parser.add_argument('-c', '--explore_compress_file', help='Search CSV in compress files (if input is a directory).',
-                    type=bool, default=False)
+parser.add_argument('-c', '--explore_compress_file', help='Search CSV in compress files (if input is a directory).', action=argparse.BooleanOptionalAction)
+parser.add_argument('-e', '--extensions', help='Comma separated extensions of CSV, default=[.csv, .data].',type=str, default=".csv, .data")
 
 args = parser.parse_args()
 input_arg = args.input
 output = args.output
 explore_compress_file = args.explore_compress_file
+extensions=args.extensions.replace(', ',',').split(',')
 input = Path(input_arg)
 result = []
 if input.is_dir():
     search_stategy = '**/'
-    csv_files = list(input.glob(search_stategy + '*.csv'))
+    csv_files=[]
+    for ext in extensions:
+        csv_files.extend(list(input.glob(search_stategy + f'*{ext}')))
     zip_files = list(input.glob(search_stategy + '*.zip'))
     for csv in csv_files:
         result.append(csv_information_extraction(csv, input_arg, csv, convert_size(os.path.getsize(csv))))
     if explore_compress_file:
         for zip_file in zip_files:
-            result.extend(zip_information_extraction(zip_file))
+            result.extend(zip_information_extraction(zip_file, extensions))
 elif input.is_file():
     suffix = ''.join(input.suffixes)
     if suffix == '.csv':
