@@ -119,7 +119,7 @@
       <workItem from="1715258427423" duration="439000" />
       <workItem from="1715258880691" duration="5836000" />
       <workItem from="1715264787677" duration="15000" />
-      <workItem from="1715266037915" duration="625000" />
+      <workItem from="1715266037915" duration="1225000" />
     </task>
     <servers />
   </component>
@@ -137,11 +137,16 @@
           <line>79</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv-analyzer.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/csv_analyzer$csv_analyzer.coverage" NAME="csv-analyzer Coverage Results" MODIFIED="1715264526455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/csv_analyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1715266210637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\tulli\Documents\GitHub\csv-analyzer" />
+    <SUITE FILE_PATH="coverage/csv_analyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1715267027635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\tulli\Documents\GitHub\csv-analyzer" />
   </component>
 </project>

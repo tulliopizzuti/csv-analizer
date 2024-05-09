@@ -95,7 +95,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument('input', help="Input CSV file or directory.")
 parser.add_argument('-o', '--output', help="Output CSV file.", type=str, default="result.csv")
 parser.add_argument('-c', '--explore_compress_file', help='Search CSV in compress files (if input is a directory).', action=argparse.BooleanOptionalAction)
-parser.add_argument('-e', '--extensions', help='Comma separated extensions of CSV, default=[.csv, .data].',type=str, default=".csv, .data")
+parser.add_argument('-e', '--extensions', help='Comma separated extensions of CSV, default=[.csv, .data, .txt].',type=str, default=".csv, .data, .txt")
 
 args = parser.parse_args()
 input_arg = args.input
