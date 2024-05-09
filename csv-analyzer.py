@@ -3,6 +3,17 @@ import pandas as pd
 from pathlib import Path
 import zipfile
 import os
+import math
+
+
+def convert_size(size_bytes):
+    if size_bytes == 0:
+        return "0B"
+    size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
+    i = int(math.floor(math.log(size_bytes, 1024)))
+    p = math.pow(1024, i)
+    s = round(size_bytes / p, 2)
+    return "%s %s" % (s, size_name[i])
 
 
 def zip_information_extraction(file, original_file=None):
@@ -13,16 +24,18 @@ def zip_information_extraction(file, original_file=None):
         csv_files = (list(filter(lambda name: '__MACOSX' not in name and name.endswith('.csv'), archive.namelist())))
         zip_files = (list(filter(lambda name: '__MACOSX' not in name and name.endswith('.zip'), archive.namelist())))
         for csv in csv_files:
-            res.append(csv_information_extraction(archive.open(csv), os.path.abspath(archive.filename) if original_file==None else original_file, str(csv)))
+            res.append(csv_information_extraction(archive.open(csv), os.path.join(
+                archive.filename) if original_file == None else original_file, str(csv), convert_size(archive.getinfo(csv).file_size)))
 
         for zip in zip_files:
-            res.extend(zip_information_extraction(archive.open(zip), os.path.abspath(archive.filename)+"\\"+str(zip) if original_file==None else original_file+"\\"+str(zip)))
+            res.extend(zip_information_extraction(archive.open(zip), os.path.join(archive.filename) + "\\" + str(
+                zip) if original_file == None else original_file + "\\" + str(zip)))
     except zipfile.BadZipFile:
         print(f'Error opening ZIP: {file}')
     return res
 
 
-def csv_information_extraction(file, path, filename):
+def csv_information_extraction(file, path, filename, size='0MB'):
     print(f'CSV Information extraction: {path} # {filename}')
     try:
         df = pd.read_csv(file, iterator=True, keep_default_na=False, sep=None, header=None, engine='python')
@@ -40,6 +53,8 @@ def csv_information_extraction(file, path, filename):
             "rows": len(df),
             "delimiter": delimiter,
             "null_char": None if len(founded_null_chars) == 0 else ", ".join(founded_null_chars),
+            "size": size
+
         }
     except Exception as e:
         print(f'ERROR on CSV Information extraction: {path} # {filename}')
@@ -70,10 +85,10 @@ input = Path(input_arg)
 result = []
 if input.is_dir():
     search_stategy = '**/'
-    csv_files=list(input.glob(search_stategy + '*.csv'))
-    zip_files=list(input.glob(search_stategy + '*.zip'))
+    csv_files = list(input.glob(search_stategy + '*.csv'))
+    zip_files = list(input.glob(search_stategy + '*.zip'))
     for csv in csv_files:
-        result.append(csv_information_extraction(csv, input.cwd(), csv))
+        result.append(csv_information_extraction(csv, input_arg, csv, convert_size(os.path.getsize(csv))))
     if explore_compress_file:
         for zip_file in zip_files:
             result.extend(zip_information_extraction(zip_file))
@@ -88,7 +103,6 @@ elif input.is_file():
 else:
     print("Error on input")
     exit(0)
-
 
 result = pd.DataFrame.from_dict(result)
 result['columns'] = result['columns'].astype(int)

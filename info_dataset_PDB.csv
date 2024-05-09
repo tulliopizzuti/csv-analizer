@@ -1,0 +1,179 @@
+path,file,columns,rows,delimiter,null_char
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM.csv,31,160000,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_SITE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_SITES.csv,31,32485,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_SITES_ALT.csv,4,18742,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_SITES_ALT_ENS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_SITES_ALT_GEN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_SITES_FOOTNOTE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_SITE_ANISOTROP.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ATOM_TYPE.csv,23,162267,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CELL.csv,20,30771,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CELL_MEASUREMENT.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CELL_MEASUREMENT_REFLN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_ANGLE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_ATOM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_BOND.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_CHIR.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_CHIR_ATOM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_LINK.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_PLANE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_PLANE_ATOM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_TOR.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_COMP_TOR_VALUE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_ANGLE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_BOND.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_CHIR.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_CHIR_ATOM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_PLANE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_PLANE_ATOM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_TOR.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CHEM_LINK_TOR_VALUE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CITATION.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CITATION_AUTHOR.csv,6,338810,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\CITATION_EDITOR.csv,6,849,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\COMPUTING.csv,13,28534,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DATABASE_2.csv,4,97453,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DATABASE_PDB_CAVEAT.csv,4,253,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DATABASE_PDB_MATRIX.csv,27,31031,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DATABASE_PDB_REMARK.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DATABASE_PDB_REV.csv,10,52345,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DATABASE_PDB_REV_RECORD.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DATABASE_PDB_TVECT.csv,7,12,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN.csv,14,29559,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_ATTENUATOR.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_DETECTOR.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_MEASUREMENT.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_ORIENT_MATRIX.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_ORIENT_REFLN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_RADIATION.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_RADIATION_WAVELENGTH.csv,5,35679,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_REFLN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_REFLNS.csv,25,61,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_SCALE_GROUP.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_SOURCE.csv,14,25673,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_STANDARDS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\DIFFRN_STANDARD_REFLN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_KEYWORDS.csv,8,92619,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_LINK.csv,13,4,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_NAME_COM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_NAME_SYS.csv,6,5276,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_POLY.csv,13,44670,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_POLY_SEQ.csv,8,9584490,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_SRC_GEN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTITY_SRC_NAT.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTRY_LINK.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\ENTYTYSRCGEN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\EXPTL.csv,12,32485,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\EXPTL_CRYSTAL.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\EXPTL_CRYSTAL_FACE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\EXPTL_CRYSTAL_GROW.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\EXPTL_CRYSTAL_GROW_COMP.csv,10,9691,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\GEOM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\GEOM_ANGLE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\GEOM_BOND.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\GEOM_CONTACT.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\GEOM_HBOND.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\GEOM_TORSION.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\MMS_CATEGORY.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\MMS_ENTRY.csv,9,32485,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\MMS_ENTRY_CATEGORIES.csv,4,1654473,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\MMS_ITEM.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\MMS_SYSTEM.csv,4,1,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_DATABASE_MESSAGE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_DATABASE_PDB_OBS_SPR.csv,6,713,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_DATABASE_PROC.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_DATABASE_RELATED.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_DATABASE_REMARK.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_DATABASE_STATUS.csv,35,29787,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_ENTITY_ASSEMBLY.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_ENTITY_NAME.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_ENTITY_SRC_SYN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_CONSTRAINTS.csv,26,6,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_DETAILS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_ENSEMBLE.csv,17,3934,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_ENSEMBLE_RMS.csv,21,6,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_EXPTL.csv,6,15085,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_EXPTL_SAMPLE.csv,7,20,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_EXPTL_SAMPLE_CONDITIONS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_FORCE_CONSTANTS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_REFINE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_REPRESENTATIVE.csv,5,2637,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_SAMPLE_DETAILS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_SOFTWARE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NMR_SPECTROMETER.csv,7,6345,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_NONPOLY_SCHEME.csv,13,7575999,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_POLY_SEQ_SCHEME.csv,13,17305799,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_PRERELEASE_SEQ.csv,4,6620,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_REFINE.csv,16,1739,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_REFINE_AUX_FILE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_REFINE_TLS.csv,38,6390,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_REFINE_TLS_GROUP.csv,17,8696,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_STRUCT_SHEET_HBOND.csv,23,487927,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PDBX_XPLOR_FILE.csv,5,30058,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING.csv,3,144,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_AVERAGING.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_ISOMORPHOUS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MAD.csv,5,50,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MAD_CLUST.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MAD_EXPT.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MAD_RATIO.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MAD_SET.csv,14,56,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MIR.csv,5,9,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MIR_DER.csv,12,14,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MIR_DER_REFLN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MIR_DER_SHELL.csv,14,232,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MIR_DER_SITE.csv,23,20,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_MIR_SHELL.csv,11,84,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_SET.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\PHASING_SET_REFLN.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE_ANALYZE.csv,14,10901,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE_B_ISO.csv,6,741,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE_HIST.csv,22,28159,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE_LS_RESTR.csv,9,445244,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE_LS_RESTR_NCS.csv,8,11950,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE_LS_SHELL.csv,22,18168,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFINE_OCCUPANCY.csv,6,548,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFLN.csv,45,17601,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFLNS.csv,37,24769,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFLNS_SCALE.csv,6,1,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\REFLNS_SHELL.csv,20,21637,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\SOFTWARE.csv,21,89324,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_ASYM.csv,8,243786,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_BIOL.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_BIOL_GEN.csv,9,287367,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_BIOL_KEYWORDS.csv,5,2,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_BIOL_VIEW.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_CONF.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_CONF_TYPE.csv,5,31676,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_CONN.csv,65,471130,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_CONN_TYPE.csv,5,26443,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_KEYWORDS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_MON_DETAILS.csv,6,1,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_MON_NUCL.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_MON_PROT.csv,34,405,;,blank
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_MON_PROT_CIS.csv,27,47836,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_NCS_DOM.csv,4,845,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_NCS_DOM_LIM.csv,32,2785,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_NCS_ENS.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_NCS_ENS_GEN.csv,10,1,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_NCS_OPER.csv,17,14580,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_REF.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_REF_SEQ.csv,21,68155,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_REF_SEQ_DIF.csv,18,148736,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SHEET.csv,6,157171,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SHEET_HBOND.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SHEET_ORDER.csv,10,504560,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SHEET_RANGE.csv,32,664128,;,?
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SHEET_TOPOLOGY.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SITE.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SITE_GEN.csv,27,134076,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SITE_KEYWORDS.csv,5,211,;,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\STRUCT_SITE_VIEW.csv,0,0,,
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\SYMMETRY.csv,8,30592,;,"blank, ?"
+C:\Users\tulli\Documents\GitHub\csv-analyzer,C:\Users\tulli\Desktop\hpi_dataset\PDB\SYMMETRY_EQUIV.csv,0,0,,
