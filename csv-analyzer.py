@@ -94,12 +94,14 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument('input', help="Input CSV file or directory.")
 parser.add_argument('-o', '--output', help="Output CSV file.", type=str, default="result.csv")
+parser.add_argument('-s', '--separator', help="Output CSV file separator.", type=str, default=";")
 parser.add_argument('-c', '--explore_compress_file', help='Search CSV in compress files (if input is a directory).', action=argparse.BooleanOptionalAction)
 parser.add_argument('-e', '--extensions', help='Comma separated extensions of CSV, default=[.csv, .data, .txt].',type=str, default=".csv, .data, .txt")
 
 args = parser.parse_args()
 input_arg = args.input
 output = args.output
+separator = args.separator
 explore_compress_file = args.explore_compress_file
 extensions=args.extensions.replace(', ',',').split(',')
 input = Path(input_arg)
@@ -130,4 +132,4 @@ else:
 result = pd.DataFrame.from_dict(result)
 result['columns'] = result['columns'].astype(int)
 result['rows'] = result['rows'].astype(int)
-result.to_csv(output, index=False)
+result.to_csv(output, index=False, sep=separator)
